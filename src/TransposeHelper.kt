@@ -8,9 +8,9 @@ object TransposeHelper {
     @JvmStatic
     fun transposeChord(chord: Chord, capoFret: Int, transposeHalfSteps: Int): Chord {
         val Δ = capoFret - transposeHalfSteps
-        val transposed = chord.clone() as Chord
+        val transposed = chord.clone()
 
-        transposed.root = transposed.root + Δ
+        transposed.root = requireNotNull(transposed.root) + Δ
         transposed.overridingRoot = transposed.overridingRoot?.plus(Δ)
 
         return transposed
