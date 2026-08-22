@@ -30,9 +30,14 @@ The transposition core is being moved toward small symbolic operations as well: 
 
 ## Origin and attribution
 
-This repository is a fork of ChordReader 2 by HollowBamboo, itself derived from the earlier ChordReader work by Nolan Lawson and Marcel Klehr. The existing project history, copyright notices, translations, assets, and license remain in the repository.
+This fork preserves the upstream chain and history:
 
-The original Android application was designed to remain useful on older devices and supports local files, transposition, capo handling, chord highlighting, auto-scroll, and chord variations.
+- [AndInTheClouds/chordreader2](https://github.com/AndInTheClouds/chordreader2) — the immediate parent, ChordReader 2
+- [marcelklehr/chordreader](https://github.com/marcelklehr/chordreader) — the upstream ChordReader repository; the inherited project also credits Nolan Lawson's earlier work
+
+The existing commit history, copyright notices, translations, artwork, and other assets remain attributed to their original contributors.
+
+The original published Android package is still available from [F-Droid](https://f-droid.org/packages/org.hollowbamboo.chordreader2/). The upstream README also points to [HollowBamboo's donation page](https://paypal.me/hollowbamboo).
 
 ## License
 
