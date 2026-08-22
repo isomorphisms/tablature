@@ -1,6 +1,7 @@
-name: Test pull requests targeting `master`
+name: Test Android app
 
 on:
+  push:
   pull_request:
     branches: [master]
 
